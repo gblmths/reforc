@@ -117,7 +117,7 @@
         });
 
         if ('serviceWoker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js').then(reg => {
+            navigator.serviceWorker.register('/service-worker.js').then(reg => {
                 reg.addEventListener('updatefound', () => {
                     newWorker = reg.installing;
                     newWorker.addEventListener('statechange', () => {
