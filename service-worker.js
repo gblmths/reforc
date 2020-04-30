@@ -1,6 +1,6 @@
 var cacheName = 'Greem reforc';
 
-self.addEventListener('install', event => {
+self.addEventListener('install', function(event) {
 
     self.skipWaiting();
 
