@@ -3,7 +3,7 @@
     "short_name": "Greem Reforc",
     "theme_color": "#eeeeee",
     "background_color": "#0088f4",
-    "display": "browser",
+    "display": "standalone",
     "orientation": "landscape",
     "Scope": "/",
     "start_url": "/index.html",
