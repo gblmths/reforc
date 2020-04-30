@@ -110,11 +110,11 @@
             snackbar.className = 'show';
         }
 
-        document.getElementById('reload').addEventListener('click', function() {
-            newWorker.postMessage({
-                action: 'skipWaiting'
-            });
-        });
+        /*   document.getElementById('reload').addEventListener('click', function() {
+               newWorker.postMessage({
+                   action: 'skipWaiting'
+               });
+           }); */
 
         if ('serviceWoker' in navigator) {
             navigator.serviceWorker.register('/service-worker.js').then(reg => {
