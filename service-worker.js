@@ -1,4 +1,4 @@
-var cacheName = 'Greem reforc';
+var cacheName = 'greem';
 
 self.addEventListener('install', function(event) {
 
