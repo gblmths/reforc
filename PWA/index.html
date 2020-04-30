@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Greem Reforço</title>
+    <meta charset="utf-8">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light" style="background-color:white;">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <!--logo-->
+                    <a href="#" alt="betabase - home" title="Home"><img id="logo" src="img/l2.jpeg"></a>
+                    <!--Smartphone-->
+                    <button type="button" style="margin-top:25px" class="collapsed navbar-toggle " data-toggle="collapse" data-target="#collapseExample" aria-controls="false">
+                        <span style="background-color:#2528b3" class="icon-bar"></span>
+                        <span style="background-color:#2528b3" class="icon-bar"></span>
+                        <span style="background-color: #2528b3" class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapseExample">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="link_menu"><a href="index.html">Login</a></li>
+                        <li class="link_menu"><a href="Cadastro_Professor.html">Cadastro </a></li>
+                        <li class="link_menu"><a href="Ajuda.html">Ajuda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id=main>
+        <div class=" row justify-content-center">
+
+            <div class="col-md-3 dv">
+
+                <form id="login-form" class="form" action="" method="post">
+                    <h3 class="display-3">Login</h3>
+                    <hr class="sidebar-divider d-none d-md-block">
+
+                    <div class="form-group">
+                        <label for="username" class="text-info">Username:</label><br>
+                        <input type="text" name="username" id="username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="text-info">Password:</label><br>
+                        <input type="text" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="submit" name="submit" class="btn btn-primary" value="Entrar">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="submit" class="btn btn-secundary" value="Cadastra-se">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-8 col-xs-12">
+                <div class="jumbotron">
+                    <h1 class="display-3">Bem vindo!</h1>
+                    <p class="lead">Acesse ao sistema de Gerenciamento de Reforço Escolar.</p>
+                    <hr class="my-4">
+                    <p> Você pode fazer anotações e ter um controle melhor sobre organização. Se não possuir cadastro, Clique no botão e Cadastre-se já!</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="Cadastro_Professor.html" role="button">Cadastrar</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cadastro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/Cadastro_Professor.css">
+    <link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/Cadastro_Professor.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light" style="background-color: white;">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <!-- logo -->
+                    <a href="#" alt="betabase - home" title="Home"><img id="logo" src="img/l2.jpeg"></a>
+                    <!-- Smartphone -->
+                    <button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
+                        <span style="background-color:#2528b3" class="icon-bar"></span>
+                        <span style="background-color:#2528b3" class="icon-bar"></span>
+                        <span style="background-color:#2528b3" class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="menu_lista">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="link_menu"><a href="index.html">Login</a></li>
+                        <li class="link_menu"><a href="Cadastro_Professor.html">Cadastro </a></li>
+                        <li class="link_menu"><a href="Ajuda.html">Ajuda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id=main>
+        <div class="container">
+            <div class="dv col-md-12 col-xs-12">
+                <form name="cadastroProfessor" method="POST" onsubmit="return validaForm();">
+                    <div class="form-row">
+                        <h1 class="display-3 ">Cadastro</h1>
+                        <hr>
+                        <div class="form-group col-md-6">
+                            <label for="email" class="text-info">E-mail: *</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="Password" class="text-info">Senha: *</label>
+                            <input type="password" class="form-control" name="Password" id="Password" placeholder="Senha">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="name" class="text-info">Nome Completo: *</label>
+                        <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome Completo">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="CPF" class="text-info">CPF: *</label>
+                        <input type="text" data-mask="000.000.000-00" class="form-control" name="CPF" id="CPF" placeholder="CPF">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="formacao" class="text-info">Formação:*</label>
+                        <select class="form-control" id="forma" name="forma">
+                            <option selected value ="">Escolher...</option>
+                            <option value="1">Pós Graduado</option>
+                            <option value="2">Mestrado</option>
+                            <option value="3">Doutorado</option>
+                            <option value="3">Pós Doutorado</option>
+                    </select>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="cidade" class="text-info">Cidade:</label>
+                            <input id="cidade" name="cidade" type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="estado" class="text-info">Estado: *</label>
+                            <select class="form-control" id="estado" name="estado">
+                                <option selected value ="">Escolher...</option>
+                                <option value="1">Pós Graduado</option>
+                                <option value="2">Mestrado</option>
+                                <option value="3">Doutorado</option>
+                                <option value="3">Pós Doutorado</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="btn btn-primary btn-lg" href="index.html" role="button" onclick="return validaForm();">Confirmar Cadastro</a>
+                    </div>
+                    <div class=" col-md-6 ">
+                        <a class="btn btn-danger btn-lg " href="index.html " role="button ">Voltar</a>
+
+                    </div>
+
+                </form>
+
+
+            </div>
+        </div>
+        <footer>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js "></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+        </footer>
+</body>
+
+</html>

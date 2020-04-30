@@ -1,0 +1,57 @@
+.logo {
+    /* background-image: url(Originals/back.jpg); */
+    background-repeat: repeat;
+    padding-left: 25px;
+    height: 150px;
+    background-color: #7694b3;
+    opacity: 0.9;
+    width: 1935px;
+}
+
+.logo2 {
+    float: right;
+    padding-left: 600px;
+    padding-right: 10px;
+    background-attachment: fixed;
+}
+
+.nav {
+    float: right;
+    background-attachment: fixed;
+}
+
+body {
+    /* background-color: #333333;
+	background-image: url(back.jpg);*/
+    background-image: url(Originals/teste.jpg);
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 600px;
+}
+
+.logodiv {
+    padding-left: 275px;
+    padding-bottom: -700px;
+}
+
+.dv {
+    width: 750px;
+    background-color: #ffffff;
+    height: 500px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 630px;
+}
+
+.acessos {
+    width: 300px;
+    margin-left: 270px;
+    margin-top: 150px;
+}
+
+.acessos1 {
+    width: 300px;
+    margin-left: 290px;
+    margin-top: 40px;
+}
