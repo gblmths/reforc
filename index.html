@@ -110,7 +110,7 @@
             snackbar.className = 'show';
         }
 
-        document.getElementById('reload').addEventListener('click', function() {
+        document.getElementById('reload').addEventListener('click', function(event) {
             newWorker.postMessage({
                 action: 'skipWaiting'
             });
