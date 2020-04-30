@@ -10,28 +10,28 @@ self.addEventListener('install', event => {
 
             '/',
 
-            'index.html',
+            './index.html',
 
-            'css/index.css',
+            './css/index.css',
 
-            'css/bootstrap.min.css',
+            './css/bootstrap.min.css',
 
-            '.js/bootstrap.min.js',
+            './js/bootstrap.min.js',
 
-            '.js/jquery.min.js',
+            './js/jquery.min.js',
 
-            '.js/index.js',
+            './js/index.js',
 
 
-            'images/icons/icon-32x32.png',
-            'images/icons/icon-72x72.png',
-            'images/icons/icon-96x96.png',
-            'images/icons/icon-144x144.png',
-            'images/icons/icon-152x152.png',
-            'images/icons/icon-167x167.png',
-            'images/icons/icon-180x180.png',
-            'images/icons/icon-192x192.png',
-            'images/icons/icon-512x512.png',
+            './images/icons/icon-32x32.png',
+            './images/icons/icon-72x72.png',
+            './images/icons/icon-96x96.png',
+            './images/icons/icon-144x144.png',
+            './images/icons/icon-152x152.png',
+            './images/icons/icon-167x167.png',
+            './images/icons/icon-180x180.png',
+            './images/icons/icon-192x192.png',
+            './images/icons/icon-512x512.png',
         ]))
     );
 });
