@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Greem Reforço</title>
@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="shortcut icon" href="images/icons/icon-32x32.png" sizes="32x32" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/index.js"></script>
 
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#31506F">
+    <meta name="theme-color" content="#4D5360" />
+    <link rel="shortcut icon" sizes="192x192" href="images/icons/icon-192x192.png">
+    <link rel="shortcut icon" sizes="128x128" href="images/icons/icon-128x128.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Greem Reforc">
+    <link rel="apple-touch-icon" href="images/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/icons/icon-167x167.png">
 </head>
 
 <body>
@@ -20,12 +35,12 @@
                 <div class="navbar-header">
 
                     <!--logo-->
-                    <a href="#" alt="betabase - home" title="Home"><img id="logo" src="img/l2.jpeg"></a>
+                    <a href="#" alt="betabase - home" title="Home"><img src="images/icons/icon-96x96.png"></a>
                     <!--Smartphone-->
-                    <button type="button" style="margin-top:25px" class="collapsed navbar-toggle " data-toggle="collapse" data-target="#collapseExample" aria-controls="false">
-                        <span style="background-color:#2528b3" class="icon-bar"></span>
-                        <span style="background-color:#2528b3" class="icon-bar"></span>
-                        <span style="background-color: #2528b3" class="icon-bar"></span>
+                    <button type="button" aria-label="justify" style="margin-top:25px" class="collapsed navbar-toggle " data-toggle="collapse" data-target="#collapseExample">
+                        <span style="background-color:#2528b3" class="icon-bar" aria-hidden="true"></span>
+                        <span style="background-color:#2528b3" class="icon-bar" aria-hidden="true"></span>
+                        <span style="background-color: #2528b3" class="icon-bar" aria-hidden="true"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="collapseExample">
@@ -43,23 +58,23 @@
 
             <div class="col-md-3 dv">
 
-                <form id="login-form" class="form" action="" method="post">
+                <form id="loginform" class="form" action="" method="post">
                     <h3 class="display-3">Login</h3>
                     <hr class="sidebar-divider d-none d-md-block">
 
                     <div class="form-group">
                         <label for="username" class="text-info">Username:</label><br>
-                        <input type="text" name="username" id="username" class="form-control">
+                        <input type="text" name="username" id="c" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="password" class="text-info">Password:</label><br>
-                        <input type="text" name="password" id="password" class="form-control">
+                        <input type="password" name="password" id="password" class="form-control">
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="submit" name="submit" class="btn btn-primary" value="Entrar">
+                        <a class="btn btn-primary btn-lg" role="button" onclick="return validaLogin();">Entrar</a>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="submit" class="btn btn-secundary" value="Cadastra-se">
+                        <a class="btn btn-secondary btn-lg" href="Cadastro_Professor.html" role="button">Cadastre-se</a>
                     </div>
                 </form>
             </div>

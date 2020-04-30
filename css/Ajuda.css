@@ -7,22 +7,10 @@ body {
     background-color: #6495ED;
 }
 
-#logo {
-    max-height: 100px;
-}
-
 #main {
     margin-top: -50px;
     padding: 50px;
     text-align: center;
-}
-
-#blast {
-    margin: 50px 0;
-}
-
-#logo {
-    max-height: 100px;
 }
 
 .link_menu {

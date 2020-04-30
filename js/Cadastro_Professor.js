@@ -1,3 +1,20 @@
+function voltarCad() {
+    let email = cadastroProfessor.email.value;
+    let nome = cadastroProfessor.nome.value;
+    let senha = cadastroProfessor.Password.value;
+    let cpf = cadastroProfessor.CPF.value;
+    let forma = cadastroProfessor.forma.value;
+    let estado = cadastroProfessor.estado.value;
+
+
+    if (nome != "" || cpf != "" || forma != "" || senha != "" || email != "" || estado != "") {
+        alert('Deseja realmente cancelar o cadastro?');
+        window.location.href = "./index.html";
+    }
+
+}
+
+
 function validaForm() {
     var email = cadastroProfessor.email.value;
     var nome = cadastroProfessor.nome.value;
