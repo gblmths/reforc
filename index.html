@@ -104,6 +104,11 @@
             let snackbar = document.getElementById('snackbar');
             snackbar.className = 'show';
         }
+        document.getElementById('reload').addEventListener('click', function() {
+            newWorker.postMessage({
+                action: 'skipWaiting'
+            });
+        });
         // The click event on the pop up notification
         // document.getElementById('reload').addEventListener('click', function() {
         //   newWorker.postMessage({
